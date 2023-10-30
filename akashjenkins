@@ -4,4 +4,4 @@ pipeline
     stages
     {
         stage ('scm checkout or download the code')
-        { steps { git branch: 'master', url: 'https://github.com/akash14m/maven-project.git' } }
+        { steps { git branch: 'master', url: 'https://github.com/akash14m/maven-project.git' } } } }
